@@ -1,0 +1,19 @@
+Package: LagrangeParametric
+Version: 0.1.0
+Date: 2018-11-10
+Title: Interpolacion Parametrica de Lagrange
+Authors@R: c(person("David", "Molano", role = c("aut", "cre"),
+                     email = "david-molano@javeriana.edu.co"),
+              person("Dorian", "Moreno", role = c("aut", "cre")))
+Author: David Molano [aut, cre],
+  Dorian Moreno [aut, cre],
+  A. User [ctb]
+Maintainer: Dorian Moreno <moreno.dorian@javeriana.edu.co>
+Depends: R (>= 3.1.0), nlme
+Suggests: MASS
+Description: Dados tres vectores t x y con el mismo numero de elementos, utiliza la integracion
+    polinomica de Lagrange para obtener los coeficientes de las ecuaciones parametricas x(t) y(t).
+License: GPL (>= 2)
+URL: https://www.r-project.org, http://www.another.url
+BugReports: https://pkgname.bugtracker.url
+RoxygenNote: 6.1.1
